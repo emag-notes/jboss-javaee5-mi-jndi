@@ -64,8 +64,8 @@ after:
     <!-- The name of the set of bindings to use for this server -->
         <parameter>${jboss.service.binding.set:port-01}</parameter>
 
-$ cp $PROJECT/target/jboss-javaee5-mi-jndi-<version>.war node1/deploy
-$ cp $PROJECT/target/jboss-javaee5-mi-jndi-<version>.war node2/deploy
+$ cp $PROJECT/target/jboss-javaee5-mi-jndi-<version>.war node1/deploy/jboss-javaee5-mi-jndi.war
+$ cp $PROJECT/target/jboss-javaee5-mi-jndi-<version>.war node2/deploy/jboss-javaee5-mi-jndi.war
 $ cp $JBOSS_HOME/docs/examples/jca/postgres-ds.xml node1/deploy
 $ vim node1/deploy/postgres-ds.xml
 
