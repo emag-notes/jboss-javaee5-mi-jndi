@@ -1,4 +1,4 @@
-jboss-javaaee5-mi-jndi
+jboss-javaee5-mi-jndi
 ========================
 
 What is it?
@@ -24,7 +24,7 @@ Usage
 + node1: デフォルトのポート
 + node2: デフォルトから 100 ずらしたポート
 
-利用することとします。
+を利用することとします。
 
 また、node1, node2 それぞれの DB を作成しておいてください。  
 ここでは、 ローカルに立てた PostgreSQL 9 を利用し、DB名をそれぞれ node1, node2 としています。  
